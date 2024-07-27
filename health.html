@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hos+port</title>
+    <link rel="stylesheet" href ="health.css">
+</head>
+<body>
+    <div id =preloader></div>
+    <header>
+        <div class="logo">FailureDetect</div>
+        <button class="contact-us">Contact Us</button>
+    </header>
+    
+    <div class="container">
+        <div class="banner">
+            <img src="heart.png" alt="X-ray Analysis">
+        </div>
+        <div class="title">Leading Heart Health Analysis AI-Tool</div>
+        <div class="subtitle">AI Boosts X-ray Accuracy: Revolutionizing diagnostics with advanced AI image analysis.</div>
+    </div>
+    <div class="requirements">
+        <div>
+        <p>Age</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>Gender</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>Chest pain </p>
+        <input type="number" >
+        </div>
+    </div>
+    <div class ="requirements2">
+        <div>
+        <p>Blood pressure</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>Cholestrol</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>Blood sugar</p>
+        <input type="number" >
+        </div>
+    </div>
+    <div class ="requirements3">
+        <div>
+        <p>ECG</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>Heart Rate</p>
+        <input type="number" >
+        </div>
+        <div>
+        <p>ExerciseAngina</p>
+        <input type="number" >
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class = "submit">
+        <button class ="subbut">Submit</button>
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            setTimeout(function(){
+                loader.style.display="none";
+            },2000);
+        });
+    </script>
+
+</body>
+</html>
